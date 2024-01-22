@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activesupport', '>= 6.1.5'
+  spec.add_dependency 'activesupport', '>= 5.2.5'
   spec.add_dependency 'paint', '>= 2.0.0'
   spec.add_dependency 'typesense', '>= 0.13.0'
 
