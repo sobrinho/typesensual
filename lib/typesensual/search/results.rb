@@ -50,6 +50,10 @@ class Typesensual
       def total_pages
         (@results['found'] / @results['per_page'].to_f).ceil
       end
+
+      def facet_counts
+        @results['facet_counts']
+      end
     end
   end
 end
